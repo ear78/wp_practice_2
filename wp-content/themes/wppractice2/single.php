@@ -13,6 +13,7 @@
     <small>Other Posts by: <?php the_author_posts_link(); ?></small>
     <small><a href="<?php comments_link(); ?>">click for comments</a>  - <?php comments_number('0 comments', '1 comments', '% response'); ?></small>
     <div class="entry">
+        <!-- Sets Featured Image -->
         <?php the_post_thumbnail(); ?>
         <?php the_content('Read the rest of this entry &raquo;'); ?>
 
