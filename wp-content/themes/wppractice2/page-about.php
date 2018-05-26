@@ -1,14 +1,13 @@
 <?php
 /*
-    Template Name: About
-    Template Post Type: page
+
 */
 
 ?>
 
 <?php get_header(); ?>
 
-    <h3>About Page Template File</h3>
+    <h3>About Page Template File single use</h3>
 
 <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 

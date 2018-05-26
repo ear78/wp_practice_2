@@ -12,9 +12,15 @@
 
         </div>
 
-        <section class="added-content">
+        <section class="added-content text-wrapper">
 
             <?php the_content('Read the rest of this entry &raquo;'); ?>
+
+        </section>
+
+        <section class="info-section">
+
+            <?php get_template_part( '/template-parts/content', 'add' ); ?>
 
         </section>
 
@@ -25,6 +31,6 @@
 
 <?php endif; ?>
 
-<h3 style="margin-bottom: 20px;text-align: center;">Front Page Template File</h3>
+<h3 style="margin-bottom: 20px;text-align: center;height: 300px;line-height:10;">Front Page Template File</h3>
 
 <?php get_footer(); ?>
