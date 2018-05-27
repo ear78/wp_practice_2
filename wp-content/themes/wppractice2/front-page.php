@@ -7,7 +7,7 @@
 
         <div id="hero-image-container">
             <div class="hero-image">
-                <?php the_post_thumbnail(); ?>
+                <?php the_post_thumbnail('post-thumbnail', ['class' => 'img-fluid']); ?>
             </div>
 
         </div>

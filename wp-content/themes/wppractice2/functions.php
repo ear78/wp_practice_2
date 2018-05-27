@@ -12,6 +12,8 @@
 
         wp_enqueue_style('font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
+        wp_enqueue_style('bootstrap-css', get_stylesheet_directory_uri() . '/bootstrap.min.css', [], time(), 'all');
+
         wp_enqueue_style('main-css', get_stylesheet_directory_uri() . '/style.css', [], time(), 'all');
 
         // JS scripts
