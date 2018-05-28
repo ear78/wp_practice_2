@@ -1,0 +1,26 @@
+
+@import 'styles';
+
+.hero-image {
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  padding-top: 140px;
+  .hero-title {
+    color: $white;
+    text-align: center;
+  }
+}
+
+@media(min-width: 768px){
+  .hero-image {
+    height: 450px;
+  }
+}
+
+@media(min-width: 1280px){
+  .hero-image {
+    height: 500px;
+  }
+}

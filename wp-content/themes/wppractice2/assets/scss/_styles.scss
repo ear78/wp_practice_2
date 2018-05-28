@@ -1,5 +1,12 @@
 
 $white: #fff;
+$greenBlue: #01b9ad;
+
+
+/* General Styles */
+a {
+  color: $greenBlue;
+}
 
 .content-wrapper {
   max-width: 1280px;
@@ -11,7 +18,19 @@ $white: #fff;
   margin: 0 auto;
 }
 
+@media(min-width:768px){
+  h1,
+  .h1{
+    font-size: 3em;
+  }
+}
 
+@media(min-width:992px){
+  h1,
+  .h1 {
+    font-size: 3.5em;
+  }
+}
 
 /* Menu Styles */
 

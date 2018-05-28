@@ -1,0 +1,9 @@
+
+@import 'styles';
+
+@mixin button-outline-primary {
+  color: $greenBlue;
+  background-color: transparent;
+  background-image: none;
+  border-color: $greenBlue;
+}

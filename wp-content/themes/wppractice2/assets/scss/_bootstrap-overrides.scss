@@ -1,0 +1,6 @@
+
+@import 'components';
+
+.btn-outline-primary {
+  @include button-outline-primary;
+}
