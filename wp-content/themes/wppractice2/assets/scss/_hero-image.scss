@@ -10,17 +10,35 @@
   .hero-title {
     color: $white;
     text-align: center;
+    font-size: 1.95em;
   }
 }
 
 @media(min-width: 768px){
   .hero-image {
     height: 450px;
+    padding-top: 160px;
+    .hero-title {
+      font-size: 3em;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .hero-image {
+    height: 450px;
+    padding-top: 160px;
+    .hero-title {
+      font-size: 3.75em;
+    }
   }
 }
 
 @media(min-width: 1280px){
   .hero-image {
     height: 500px;
+    .hero-title {
+      font-size: 4.75em;
+    }
   }
 }

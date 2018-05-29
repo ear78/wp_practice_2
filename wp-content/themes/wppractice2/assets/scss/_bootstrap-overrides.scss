@@ -1,6 +1,22 @@
 
 @import 'components';
 
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, p {
+  font-weight: 300;
+}
+
 .btn-outline-primary {
   @include button-outline-primary;
+  &:hover {
+    background: darken($greenBlue,10%);
+    border: 2px solid darken($greenBlue,10%);
+  }
+}
+
+.btn {
+  border-radius: 0px;
+  border: 2px solid;
+  padding: 0.5rem 1.125rem;
+  text-transform: uppercase;
+  font-size: .8em;
 }

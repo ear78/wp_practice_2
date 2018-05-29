@@ -1,9 +1,12 @@
 
 $white: #fff;
 $greenBlue: #01b9ad;
+$black: #010101;
 
 
 /* General Styles */
+
+
 a {
   color: $greenBlue;
 }
@@ -32,11 +35,18 @@ a {
   }
 }
 
+@media(min-width: 1280px){
+  h1,
+  .h1 {
+    font-size: 4em;
+  }
+}
+
 /* Menu Styles */
 
 #menu-container {
   display: none;
-  background: #313131;
+  background: $black;
   justify-content: space-between;
   align-items: center;
   height: 45px;

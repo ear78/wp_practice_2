@@ -10,8 +10,8 @@
         <header class="site-header">
             <div id="logo">
 
-                <h2><a href="#"><?php bloginfo('name'); ?></a></h2>
-                <p><?php bloginfo('description'); ?></p>
+<!--                <h2><a href="#">--><?php //bloginfo('name'); ?><!--</a></h2>-->
+<!--                <p>--><?php //bloginfo('description'); ?><!--</p>-->
             </div>
 
             <div id="menu-container">
