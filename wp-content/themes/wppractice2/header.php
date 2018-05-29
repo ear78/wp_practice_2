@@ -12,11 +12,22 @@
 
 <!--                <h2><a href="#">--><?php //bloginfo('name'); ?><!--</a></h2>-->
 <!--                <p>--><?php //bloginfo('description'); ?><!--</p>-->
+<!--        This will grab the custom log in customize        --><?php //the_custom_logo(); ?>
             </div>
 
             <div id="menu-container">
-                <p class="brand">Kamera
-                    <i class="fa fa-eercast" aria-hidden="true"></i>
+                <p class="brand">
+<!--                    Kamera-->
+<!--                    <i class="fa fa-eercast" aria-hidden="true"></i>-->
+
+                    <!-- custom logo being added dynamically in customize -->
+                    <?php
+
+                        if( function_exists('the_custom_logo')){
+                            the_custom_logo();
+                        };
+
+                        ?>
                 </p>
                 <?php wp_nav_menu(); ?>
             </div>
@@ -26,11 +37,20 @@
                 <?php wp_nav_menu(); ?>
 
                 <div class="hamburger-menu">
-                    <a href="<?php echo esc_url( home_url('/') ); ?>">
-                        <p class="brand">Kamera
-                            <i class="fa fa-eercast" aria-hidden="true"></i>
+                        <p class="brand">
+<!--                            Kamera-->
+<!--                            <i class="fa fa-eercast" aria-hidden="true"></i>-->
+
+                            <!-- custom logo being added dynamically in customize -->
+                            <?php
+
+                            if( function_exists('the_custom_logo')){
+                                the_custom_logo();
+                            };
+
+                            ?>
+
                         </p>
-                    </a>
                     <i class="fa fa-bars" aria-hidden="true"></i>
                 </div>
                 <div id="menu-modal" class="menu-modal"></div>

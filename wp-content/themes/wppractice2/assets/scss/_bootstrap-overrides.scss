@@ -5,6 +5,10 @@
   font-weight: 300;
 }
 
+ul, p {
+  margin: 0;
+}
+
 .btn-outline-primary {
   @include button-outline-primary;
   &:hover {

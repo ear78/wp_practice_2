@@ -166,6 +166,7 @@ a {
   background-repeat: no-repeat;
   background-position: 50% 50%;
   padding-top: 140px;
+  margin-bottom: 50px;
 }
 .hero-image .hero-title {
   color: #fff;
@@ -252,9 +253,14 @@ a {
   margin-left: 25px;
   font-size: 0.9em;
 }
+.custom-logo {
+  width: 170px;
+  height: auto;
+  max-width: 100%;
+}
 #mobile-container {
   display: flex;
-  background: #313131;
+  background: #010101;
   align-items: center;
 }
 #menu-main-navigation-1 {
@@ -383,6 +389,9 @@ a {
 }
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, p {
   font-weight: 300;
+}
+ul, p {
+  margin: 0;
 }
 .btn-outline-primary {
   color: #01b9ad;
