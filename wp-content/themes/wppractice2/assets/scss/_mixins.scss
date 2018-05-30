@@ -34,3 +34,11 @@
   background-position: 50% 50%;
   padding: 80px 15px;
 }
+
+@mixin mb-90 {
+  margin-bottom: 90px;
+}
+
+@mixin mb-70 {
+  margin-bottom: 70px;
+}
