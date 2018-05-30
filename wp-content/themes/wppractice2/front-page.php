@@ -5,24 +5,21 @@
 
     <div class="entry">
 
-        <div id="hero-image-container">
-            <div class="hero-image">
-                <?php the_post_thumbnail('post-thumbnail', ['class' => 'img-fluid']); ?>
-            </div>
-
-        </div>
-
-        <section class="added-content text-wrapper">
+<!--        <div id="hero-image-container">-->
+<!--            <div class="hero-image">-->
+<!--                --><?php //the_post_thumbnail('post-thumbnail', ['class' => 'img-fluid']); ?>
+<!--            </div>-->
+<!---->
+<!--        </div>-->
 
             <?php the_content('Read the rest of this entry &raquo;'); ?>
 
-        </section>
 
-        <section class="info-section">
-
-            <?php get_template_part( '/template-parts/content', 'add' ); ?>
-
-        </section>
+<!--        <section class="info-section">-->
+<!---->
+<!--            --><?php //get_template_part( '/template-parts/content', 'add' ); ?>
+<!---->
+<!--        </section>-->
 
     </div>
 <?php endwhile; else: ?>

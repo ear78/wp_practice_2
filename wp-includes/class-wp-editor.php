@@ -81,7 +81,7 @@ final class _WP_Editors {
 		$settings = apply_filters( 'wp_editor_settings', $settings, $editor_id );
 
 		$set = wp_parse_args( $settings, array(
-			'wpautop'             => true,
+			'wpautop'             => false,
 			'media_buttons'       => true,
 			'default_editor'      => '',
 			'drag_drop_upload'    => false,

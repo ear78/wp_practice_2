@@ -1,9 +1,16 @@
 
+@import 'mixins';
 @import 'styles';
 
-@mixin button-outline-primary {
-  color: $greenBlue;
-  background-color: transparent;
-  background-image: none;
-  border-color: $greenBlue;
+
+.circles-container {
+  display: flex;
+  justify-content: center;
+  .circles {
+    @include circles;
+  }
+}
+
+.section-bg-image {
+  @include bg-image;
 }

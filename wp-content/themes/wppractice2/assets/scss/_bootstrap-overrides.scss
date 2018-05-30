@@ -10,10 +10,19 @@ ul, p {
 }
 
 .btn-outline-primary {
-  @include button-outline-primary;
+  @include btn-outline-primary;
   &:hover {
     background: darken($greenBlue,10%);
     border: 2px solid darken($greenBlue,10%);
+  }
+}
+
+.btn-outline-secondary {
+  @include btn-outline-secondary;
+  &:hover {
+    background: $white;
+    border: 2px solid $white;
+    color: $black;
   }
 }
 

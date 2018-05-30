@@ -2,6 +2,7 @@
 $white: #fff;
 $greenBlue: #01b9ad;
 $black: #010101;
+$gray: gray;
 
 
 /* General Styles */
@@ -9,6 +10,11 @@ $black: #010101;
 
 a {
   color: $greenBlue;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
 
 .content-wrapper {
