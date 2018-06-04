@@ -1,0 +1,48 @@
+@import 'styles';
+
+/* Footer Styles */
+
+#footer {
+  background: $black;
+  min-height: 95px;
+  padding-top: 30px;
+  .footer-logo {
+    max-width: 115px;
+  }
+}
+
+.footer-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  li {
+    margin-right: 12px;
+    text-transform: uppercase;
+    font-size: .8em;
+  }
+  a {
+    color: $gray;
+  }
+  .current-menu-item a {
+    color: $white;
+  }
+}
+
+.social-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  i {
+    margin: 0 8px;
+    color: $gray;
+  }
+}
+
+.copywright {
+  text-align: center;
+}
+
+.copywright a {
+  font-size: .75em;
+  color: $gray;
+}

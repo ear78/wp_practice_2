@@ -29,12 +29,12 @@
 
                         ?>
                 </p>
-                <?php wp_nav_menu(); ?>
+                <?php wp_nav_menu(array( 'theme_location' => 'main-navigation')); ?>
             </div>
 
             <div id="mobile-container">
 
-                <?php wp_nav_menu(); ?>
+                <?php wp_nav_menu(array( 'theme_location' => 'main-navigation')); ?>
 
                 <div class="hamburger-menu">
                         <p class="brand">

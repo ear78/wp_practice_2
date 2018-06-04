@@ -8,7 +8,6 @@ $gray: gray;
 
 /* General Styles */
 
-
 a {
   color: $greenBlue;
 }
@@ -93,35 +92,3 @@ img {
 
 
 
-/* Footer Styles */
-
-#footer {
-  background: lightgray;
-  min-height: 95px;
-  padding-top: 30px;
-}
-
-.social-container {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 15px;
-}
-
-.social-container p {
-  margin: 0 8px;
-}
-
-.line {
-  margin: 0 auto 15px;
-  width: 60%;
-  background: gray;
-  height: 1px;
-}
-
-.copywright {
-  text-align: center;
-}
-
-.copywright a {
-  color: tomato;
-}

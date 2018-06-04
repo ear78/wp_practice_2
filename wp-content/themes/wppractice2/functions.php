@@ -24,3 +24,13 @@
 
     add_action( 'wp_enqueue_scripts', 'wppractice2_enqueue_scripts');
 
+
+    // Add Footer Menu
+    function register_my_menus(){
+        register_nav_menus( [
+            'main-navigation' => 'Main Navigation',
+            'footer' => 'Footer Menu'
+        ]);
+    }
+
+    add_action( 'init', 'register_my_menus');
