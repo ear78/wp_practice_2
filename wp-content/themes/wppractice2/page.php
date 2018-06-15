@@ -17,6 +17,8 @@
 
         <?php the_content('Read the rest of this entry &raquo;'); ?>
 
+        <?php get_template_part( 'template-parts/navigation/navigation', 'social'); ?>
+
     </div>
 <?php endwhile; else: ?>
 

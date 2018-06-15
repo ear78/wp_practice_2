@@ -29,8 +29,12 @@
     function register_my_menus(){
         register_nav_menus( [
             'main-navigation' => 'Main Navigation',
-            'footer' => 'Footer Menu'
+            'footer' => 'Footer Menu',
+            'social' => 'Social Menu'
         ]);
     }
 
     add_action( 'init', 'register_my_menus');
+
+
+require get_parent_theme_file_path( '/xtra-functions/shortcode-functions.php' );

@@ -1,3 +1,9 @@
+.social-links-menu {
+  display: flex;
+}
+.social-links-menu a {
+  padding: 5px 8px;
+}
 /* colors SASS */
 /* General Styles */
 a {
@@ -454,6 +460,7 @@ img {
 .footer-menu {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-end;
 }
 .footer-menu li {
   margin-right: 12px;
