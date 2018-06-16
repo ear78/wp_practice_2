@@ -3,10 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="b783cf15-4ac6-4b2a-aa69-f8bfe2279ab0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/wppractice2/assets/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/wppractice2/assets/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/wppractice2/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/wppractice2/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/wppractice2/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/wppractice2/page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/wppractice2/assets/js/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/wppractice2/assets/js/functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/wppractice2/assets/scss/_components.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/wppractice2/assets/scss/_components.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/wppractice2/assets/scss/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/wppractice2/assets/scss/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/wppractice2/assets/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/wppractice2/assets/scss/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/wppractice2/assets/scss/_styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/wppractice2/assets/scss/_styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/wppractice2/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/wppractice2/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/wppractice2/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/wppractice2/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/wppractice2/template-parts/navigation/navigation-social.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/wppractice2/template-parts/navigation/navigation-social.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/wppractice2/xtra-functions/shortcode-functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/wppractice2/xtra-functions/shortcode-functions.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,59 +36,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="navigation-social.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice2/template-parts/navigation/navigation-social.php">
+      <file leaf-file-name="functions.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice2/assets/js/functions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="360">
+              <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_social-menu.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice2/assets/scss/_social-menu.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shortcode-functions.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="shortcode-functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice2/xtra-functions/shortcode-functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="25" selection-end-column="50" />
-              <folding>
-                <element signature="e#6#184#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice2/functions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="39" column="49" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice2/assets/scss/style.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice2/page.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="330">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -110,7 +76,6 @@
         <option value="$PROJECT_DIR$/wp-content/themes/wppractice2/template-parts/content-404.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wppractice2/single.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wppractice2/js/functions.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wppractice2/assets/js/functions.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/wppractice2/template-parts/page-about.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wppractice2/template-parts/content-add-section.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wppractice2/page-templates/page_two-column.php" />
@@ -123,20 +88,21 @@
         <option value="$PROJECT_DIR$/wp-content/themes/wppractice2/assets/scss/_bootstrap-overrides.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/wppractice2/assets/scss/_hero-image.scss" />
         <option value="$PROJECT_DIR$/wp-includes/class-wp-editor.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wppractice2/assets/scss/_components.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wppractice2/assets/scss/_mixins.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/wppractice2/assets/scss/_helpers.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/wppractice2/front-page.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wppractice2/assets/scss/_styles.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/wppractice2/header.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wppractice2/footer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wppractice2/assets/scss/_footer.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/wppractice2/page.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wppractice2/template-parts/navigation/navigation-social.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wppractice2/assets/scss/style.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/wppractice2/assets/scss/_social-menu.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/wppractice2/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wppractice2/assets/scss/_styles.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wppractice2/template-parts/navigation/navigation-social.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wppractice2/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wppractice2/assets/scss/_components.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wppractice2/assets/scss/_mixins.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wppractice2/assets/scss/_footer.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/wppractice2/xtra-functions/shortcode-functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wppractice2/assets/js/functions.js" />
       </list>
     </option>
   </component>
@@ -150,10 +116,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1080" />
+    <option name="x" value="-1901" />
     <option name="y" value="23" />
-    <option name="width" value="1079" />
-    <option name="height" value="1144" />
+    <option name="width" value="1806" />
+    <option name="height" value="1031" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -188,6 +154,22 @@
               <item name="wp-content" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="wppractice2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wp_practice_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wp_practice_2" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="wppractice2" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wp_practice_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wp_practice_2" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="wppractice2" type="462c0819:PsiDirectoryNode" />
+              <item name="xtra-functions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -235,18 +217,18 @@
       <workItem from="1527175487901" duration="5044000" />
       <workItem from="1527203753063" duration="48488000" />
       <workItem from="1528395938266" duration="65000" />
-      <workItem from="1529078906348" duration="8473000" />
+      <workItem from="1529078906348" duration="15075000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69859000" />
+    <option name="totallyTimeSpent" value="76461000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1080" y="23" width="1079" height="1144" extended-state="0" />
+    <frame x="-1901" y="23" width="1806" height="1031" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.14272475" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.08730159" />
       <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
@@ -255,7 +237,7 @@
       <window_info anchor="bottom" id="Run" order="7" />
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.31584582" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -367,23 +349,9 @@
         <state relative-caret-position="-236" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice2/assets/js/functions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/page/content-front-page-panels.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-506" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="26" column="75" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="75" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice2/page-templates/page_two-column.php">
@@ -467,24 +435,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice2/assets/scss/_styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="15" lean-forward="true" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice2/assets/scss/_helpers.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice2/assets/scss/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -495,44 +449,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice2/assets/scss/_mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="12" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice2/assets/scss/_components.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice2/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/navigation/navigation-top.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice2/page.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen/header.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice2/template-parts/navigation/navigation-social.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="768">
+          <caret line="575" column="68" lean-forward="true" selection-start-line="575" selection-start-column="8" selection-end-line="575" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -543,34 +466,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice2/assets/scss/_social-menu.scss">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice2/assets/scss/_styles.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen/functions.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen/page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="575" column="68" lean-forward="true" selection-start-line="575" selection-start-column="8" selection-end-line="575" selection-end-column="68" />
+        <state relative-caret-position="180">
+          <caret line="26" column="75" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="75" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice2/assets/scss/_social-menu.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice2/template-parts/navigation/navigation-social.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice2/assets/scss/_components.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice2/assets/scss/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice2/assets/scss/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice2/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="39" column="35" lean-forward="true" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice2/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="15" lean-forward="true" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen/header.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice2/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
+        <state relative-caret-position="585">
           <caret line="39" column="49" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice2/xtra-functions/shortcode-functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="25" selection-end-column="50" />
-          <folding>
-            <element signature="e#6#184#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="330">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice2/assets/js/functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
         </state>
       </provider>
     </entry>

@@ -1,3 +1,5 @@
+/* fonts SASS */
+$fontFamily: avenir, sans-serif;
 
 /* colors SASS */
 $white: #fff;
@@ -8,6 +10,9 @@ $gray: gray;
 
 /* General Styles */
 
+body {
+  font-family: $fontFamily;
+}
 a {
   color: $greenBlue;
 }

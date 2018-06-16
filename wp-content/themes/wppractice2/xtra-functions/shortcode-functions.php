@@ -10,6 +10,7 @@ function shortcode_input( $atts ){
 
     $a = shortcode_atts( [
         'placeholder' => 'Please Fill Out',
+        'name' => '',
         'for' => '',
         'id' => '',
         'label_name' => 'Label',
@@ -19,7 +20,7 @@ function shortcode_input( $atts ){
         $atts);
 
     return "<label class='{$a['label_class']}' for='{$a['for']}'>{$a['label_name']}:</label>
-                <input class='{$a['input_class']}' placeholder='{$a['placeholder']}' id='{$a['id']}'/>
+                <input class='{$a['input_class']}' placeholder='{$a['placeholder']}' name='{$a['name']}' id='{$a['id']}'/>
            ";
 
 }
