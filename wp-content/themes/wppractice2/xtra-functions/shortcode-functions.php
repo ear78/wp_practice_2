@@ -15,11 +15,12 @@ function shortcode_input( $atts ){
         'id' => '',
         'label_name' => 'Label',
         'label_class' => '',
-        'input_class' => ''
+        'input_class' => '',
+        'display' => 'block'
         ],
         $atts);
 
-    return "<label class='{$a['label_class']}' for='{$a['for']}'>{$a['label_name']}:</label>
+    return "<label style='display:{$a['display']};' class='{$a['label_class']}' for='{$a['for']}'>{$a['label_name']}:</label>
                 <input class='{$a['input_class']}' placeholder='{$a['placeholder']}' name='{$a['name']}' id='{$a['id']}'/>
            ";
 

@@ -1,3 +1,54 @@
+.menu-new-navigation-container {
+  width: 350px;
+  background-color: gainsboro;
+  position: absolute;
+  right: 0px;
+  top: 0;
+  border-left: 1px solid lightgray;
+  height: 100vh;
+  z-index: 10000;
+}
+.menu-new-navigation-container .menu {
+  display: flex;
+  flex-direction: column;
+}
+.menu-new-navigation-container .menu li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.menu-new-navigation-container .sub-menu {
+  visibility: hidden;
+  height: 0;
+  position: absolute;
+  width: 200px;
+  background: black;
+  top: 0px;
+  right: 200px;
+}
+.menu-new-navigation-container .sub-menu:active {
+  height: 100vh;
+}
+.menu-new-navigation-container .sub-menu::after {
+  content: '';
+  width: 0;
+  height: 0;
+  position: absolute;
+  right: -14px;
+  top: 12px;
+  border-right: 7px solid transparent;
+  border-left: 7px solid white;
+  border-bottom: 7px solid transparent;
+  border-top: 7px solid transparent;
+}
+#content {
+  transition: all 0.3s ease-out;
+}
+#content.menu-active {
+  position: relative;
+  right: 350px;
+}
 .social-links-menu {
   display: flex;
 }
@@ -16,6 +67,13 @@ a {
 img {
   width: 100%;
   height: auto;
+}
+form {
+  padding: 15px;
+  background: #f7f7f7;
+  border-radius: 3px;
+  border: 1px solid gainsboro;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, .1);
 }
 .content-wrapper {
   max-width: 1280px;
@@ -81,6 +139,13 @@ a {
 img {
   width: 100%;
   height: auto;
+}
+form {
+  padding: 15px;
+  background: #f7f7f7;
+  border-radius: 3px;
+  border: 1px solid gainsboro;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, .1);
 }
 .content-wrapper {
   max-width: 1280px;
@@ -154,6 +219,9 @@ img {
   background-position: 50% 50%;
   padding: 80px 15px;
 }
+form input {
+  margin-bottom: 12px;
+}
 /* fonts SASS */
 /* colors SASS */
 /* General Styles */
@@ -166,6 +234,13 @@ a {
 img {
   width: 100%;
   height: auto;
+}
+form {
+  padding: 15px;
+  background: #f7f7f7;
+  border-radius: 3px;
+  border: 1px solid gainsboro;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, .1);
 }
 .content-wrapper {
   max-width: 1280px;
@@ -413,6 +488,13 @@ img {
   width: 100%;
   height: auto;
 }
+form {
+  padding: 15px;
+  background: #f7f7f7;
+  border-radius: 3px;
+  border: 1px solid gainsboro;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, .1);
+}
 .content-wrapper {
   max-width: 1280px;
   margin: 0 auto;
@@ -476,6 +558,13 @@ a {
 img {
   width: 100%;
   height: auto;
+}
+form {
+  padding: 15px;
+  background: #f7f7f7;
+  border-radius: 3px;
+  border: 1px solid gainsboro;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, .1);
 }
 .content-wrapper {
   max-width: 1280px;
@@ -586,70 +675,12 @@ img {
   width: 100%;
   height: auto;
 }
-.content-wrapper {
-  max-width: 1280px;
-  margin: 0 auto;
-}
-.text-wrapper {
-  max-width: 800px;
-  margin: 0 auto;
-}
-@media (min-width: 768px) {
-  h1, .h1 {
-    font-size: 3em;
-  }
-}
-@media (min-width: 992px) {
-  h1, .h1 {
-    font-size: 3.5em;
-  }
-}
-@media (min-width: 1280px) {
-  h1, .h1 {
-    font-size: 4em;
-  }
-}
-/* Generic Page Template Styles */
-.added-content {
-  text-align: center;
-  padding: 0 15px;
-  margin-bottom: 50px;
-}
-.section-title {
-  margin: 25px 0;
-}
-.info-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 300px;
-  width: 100%;
-  background: tomato;
-  color: #fff;
-}
-/* Two Column Template Styles */
-.two-column-container {
-  display: flex;
-  flex-direction: row;
-}
-.columns {
-  width: 50%;
-  padding: 30px;
-  height: 75%;
-}
-/* mixins used throughout */
-/* fonts SASS */
-/* colors SASS */
-/* General Styles */
-body {
-  font-family: avenir, sans-serif;
-}
-a {
-  color: #01b9ad;
-}
-img {
-  width: 100%;
-  height: auto;
+form {
+  padding: 15px;
+  background: #f7f7f7;
+  border-radius: 3px;
+  border: 1px solid gainsboro;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, .1);
 }
 .content-wrapper {
   max-width: 1280px;
@@ -715,6 +746,85 @@ a {
 img {
   width: 100%;
   height: auto;
+}
+form {
+  padding: 15px;
+  background: #f7f7f7;
+  border-radius: 3px;
+  border: 1px solid gainsboro;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, .1);
+}
+.content-wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.text-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  h1, .h1 {
+    font-size: 3em;
+  }
+}
+@media (min-width: 992px) {
+  h1, .h1 {
+    font-size: 3.5em;
+  }
+}
+@media (min-width: 1280px) {
+  h1, .h1 {
+    font-size: 4em;
+  }
+}
+/* Generic Page Template Styles */
+.added-content {
+  text-align: center;
+  padding: 0 15px;
+  margin-bottom: 50px;
+}
+.section-title {
+  margin: 25px 0;
+}
+.info-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 100%;
+  background: tomato;
+  color: #fff;
+}
+/* Two Column Template Styles */
+.two-column-container {
+  display: flex;
+  flex-direction: row;
+}
+.columns {
+  width: 50%;
+  padding: 30px;
+  height: 75%;
+}
+/* mixins used throughout */
+/* fonts SASS */
+/* colors SASS */
+/* General Styles */
+body {
+  font-family: avenir, sans-serif;
+}
+a {
+  color: #01b9ad;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+form {
+  padding: 15px;
+  background: #f7f7f7;
+  border-radius: 3px;
+  border: 1px solid gainsboro;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, .1);
 }
 .content-wrapper {
   max-width: 1280px;
@@ -788,6 +898,9 @@ img {
   background-position: 50% 50%;
   padding: 80px 15px;
 }
+form input {
+  margin-bottom: 12px;
+}
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, p {
   font-weight: 300;
 }
@@ -834,6 +947,13 @@ a {
 img {
   width: 100%;
   height: auto;
+}
+form {
+  padding: 15px;
+  background: #f7f7f7;
+  border-radius: 3px;
+  border: 1px solid gainsboro;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, .1);
 }
 .content-wrapper {
   max-width: 1280px;
@@ -905,6 +1025,13 @@ a {
 img {
   width: 100%;
   height: auto;
+}
+form {
+  padding: 15px;
+  background: #f7f7f7;
+  border-radius: 3px;
+  border: 1px solid gainsboro;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, .1);
 }
 .content-wrapper {
   max-width: 1280px;

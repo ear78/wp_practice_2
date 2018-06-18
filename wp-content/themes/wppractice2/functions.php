@@ -30,11 +30,15 @@
         register_nav_menus( [
             'main-navigation' => 'Main Navigation',
             'footer' => 'Footer Menu',
-            'social' => 'Social Menu'
+            'social' => 'Social Menu',
+            'new-navigation' => 'New Navigation'
         ]);
     }
 
     add_action( 'init', 'register_my_menus');
+
+    // Remove auto p setting in wordpress
+    remove_filter( 'the_content', 'wpautop' );
 
 
 require get_parent_theme_file_path( '/xtra-functions/shortcode-functions.php' );
