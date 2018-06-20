@@ -7,7 +7,12 @@
 
     <body>
 
-        <header class="site-header">
+        <header class="site-header text-right">
+            <button class="hamburger hamburger--collapse" type="button">
+              <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+              </span>
+            </button>
 <!--            <div id="logo">-->
 
 <!--                <h2><a href="#">--><?php //bloginfo('name'); ?><!--</a></h2>-->
@@ -62,6 +67,7 @@
 
         </header>
 
+        <div class="html-wrapper">
 
         <main id="content">
 

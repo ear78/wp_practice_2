@@ -1,8 +1,8 @@
 
-
-<?php get_header(); ?>
+    <?php get_header(); ?>
 
     <h1>This is the index.php</h1>
+
 
     <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 
@@ -22,5 +22,6 @@
 
     <?php endif; ?>
 
-<?php get_footer(); ?>
+    <?php get_footer(); ?>
+
 

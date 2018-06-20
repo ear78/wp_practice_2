@@ -1,12 +1,175 @@
+/*!
+ * Hamburgers
+ * @description Tasty CSS-animated hamburgers
+ * @author Jonathan Suh @jonsuh
+ * @site https://jonsuh.com/hamburgers
+ * @link https://github.com/jonsuh/hamburgers
+ */
+.hamburger {
+  padding: 11px 11px 3px;
+  display: inline-block;
+  cursor: pointer;
+  transition-property: opacity, filter;
+  transition-duration: 0.15s;
+  transition-timing-function: linear;
+  font: inherit;
+  color: inherit;
+  text-transform: none;
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  overflow: visible;
+}
+.hamburger:hover {
+  opacity: 0.7;
+}
+.hamburger-box {
+  width: 29px;
+  height: 24px;
+  display: inline-block;
+  position: relative;
+}
+.hamburger-inner {
+  display: block;
+  top: 50%;
+  margin-top: -2px;
+}
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+  width: 28px;
+  height: 2px;
+  background-color: #fff;
+  border-radius: 1px;
+  position: absolute;
+  transition-property: transform;
+  transition-duration: 0.15s;
+  transition-timing-function: ease;
+}
+.hamburger-inner::before, .hamburger-inner::after {
+  content: "";
+  display: block;
+}
+.hamburger-inner::before {
+  top: -7px;
+}
+.hamburger-inner::after {
+  bottom: -7px;
+}
+/*
+ * Squeeze
+ */
+.hamburger--squeeze .hamburger-inner {
+  transition-duration: 0.075s;
+  transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+.hamburger--squeeze .hamburger-inner::before {
+  transition: top 0.075s 0.12s ease, opacity 0.075s ease;
+}
+.hamburger--squeeze .hamburger-inner::after {
+  transition: bottom 0.075s 0.12s ease, transform 0.075s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+.hamburger--squeeze.is-active .hamburger-inner {
+  transform: rotate(45deg);
+  transition-delay: 0.12s;
+  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.hamburger--squeeze.is-active .hamburger-inner::before {
+  top: 0;
+  opacity: 0;
+  transition: top 0.075s ease, opacity 0.075s 0.12s ease;
+}
+.hamburger--squeeze.is-active .hamburger-inner::after {
+  bottom: 0;
+  transform: rotate(-90deg);
+  transition: bottom 0.075s ease, transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+/* fonts SASS */
+/* colors SASS */
+/* General Styles */
+body {
+  font-family: avenir, sans-serif;
+}
+a {
+  color: #01b9ad;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+form {
+  padding: 15px;
+  background: #f7f7f7;
+  border-radius: 3px;
+  border: 1px solid gainsboro;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, .1);
+}
+.content-wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.text-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  h1, .h1 {
+    font-size: 3em;
+  }
+}
+@media (min-width: 992px) {
+  h1, .h1 {
+    font-size: 3.5em;
+  }
+}
+@media (min-width: 1280px) {
+  h1, .h1 {
+    font-size: 4em;
+  }
+}
+/* Generic Page Template Styles */
+.added-content {
+  text-align: center;
+  padding: 0 15px;
+  margin-bottom: 50px;
+}
+.section-title {
+  margin: 25px 0;
+}
+.info-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 100%;
+  background: tomato;
+  color: #fff;
+}
+/* Two Column Template Styles */
+.two-column-container {
+  display: flex;
+  flex-direction: row;
+}
+.columns {
+  width: 50%;
+  padding: 30px;
+  height: 75%;
+}
+.site-header {
+  position: relative;
+  height: 45px;
+  width: 100%;
+  background: black;
+}
 .menu-new-navigation-container {
   width: 350px;
-  background-color: gainsboro;
+  background-color: #010101;
   position: absolute;
-  right: 0px;
+  transform: translate3d(100vw, 0, 0);
   top: 0;
-  border-left: 1px solid lightgray;
+  padding-top: 75px;
+  border-left: 1px solid gray;
   height: 100vh;
   z-index: 10000;
+  transition: all 0.3s ease-out;
 }
 .menu-new-navigation-container .menu {
   display: flex;
@@ -16,38 +179,41 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
 }
 .menu-new-navigation-container .sub-menu {
   visibility: hidden;
   height: 0;
+  opacity: 0;
   position: absolute;
-  width: 200px;
-  background: black;
+  width: calc(100vw - 349px);
+  background: #1b1b1b;
   top: 0px;
-  right: 200px;
-}
-.menu-new-navigation-container .sub-menu:active {
-  height: 100vh;
+  right: 350px;
+  padding-top: 75px;
 }
 .menu-new-navigation-container .sub-menu::after {
   content: '';
-  width: 0;
-  height: 0;
+  width: 185px;
+  height: 200px;
+  background: transparent;
   position: absolute;
-  right: -14px;
-  top: 12px;
-  border-right: 7px solid transparent;
-  border-left: 7px solid white;
-  border-bottom: 7px solid transparent;
-  border-top: 7px solid transparent;
+  top: 40px;
+  right: -150px;
+  transition: all 0.1s ease;
 }
-#content {
+.sub-menu.is-active {
+  visibility: visible;
+  height: 100vh;
+  opacity: 1;
+}
+.menu-new-navigation-container.is-active {
+  transform: translate3d(calc(100vw - 350px), 0, 0);
+}
+.html-wrapper {
   transition: all 0.3s ease-out;
 }
-#content.menu-active {
-  position: relative;
-  right: 350px;
+.html-wrapper.is-active {
+  transform: translate3d(-350px, 0, 0);
 }
 .social-links-menu {
   display: flex;
