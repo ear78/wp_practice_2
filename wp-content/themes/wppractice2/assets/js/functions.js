@@ -31,23 +31,23 @@
 
         // New Navigation Menu Toggle
         var isMenuActive = false;
-        $('.site-header').on('click', function(){
+        $('.site-header .hamburger').on('click', function(){
             var $menuNewNavigationContainer = $('.menu-new-navigation-container');
             var $htmlWrapper = $('.html-wrapper');
+            var $hamburgerSqueeze = $('.hamburger--slider');
 
             isMenuActive = !isMenuActive;
 
+            isMenuActive ? $hamburgerSqueeze.addClass('is-active') : $hamburgerSqueeze.removeClass('is-active');
             isMenuActive ? $htmlWrapper.addClass('is-active') : $htmlWrapper.removeClass('is-active');
             isMenuActive ? $menuNewNavigationContainer.addClass('is-active') : $menuNewNavigationContainer.removeClass('is-active');
 
-
-        })
-
-        $('.menu-item a').on('click', function(event){
-            return false;
         });
 
-        // $('.menu-item, .menu-item a').attr('disabled', 'disabled');
+        // cancel menu top level click
+        // $('.menu-new-navigation-container .menu-item a').on('click', function(event){
+        //     return false;
+        // });
 
         // New Navigation Menu hover
         $('.menu-item').on('mouseenter mouseleave', function(event){
@@ -58,7 +58,7 @@
             } else {
                 $subMenu.addClass('is-active');
             }
-        })
+        });
 
 
 

@@ -8,7 +8,7 @@
     <body>
 
         <header class="site-header text-right">
-            <button class="hamburger hamburger--collapse" type="button">
+            <button class="hamburger hamburger--slider" type="button">
               <span class="hamburger-box">
                 <span class="hamburger-inner"></span>
               </span>

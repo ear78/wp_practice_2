@@ -9,6 +9,10 @@ ul, p {
   margin: 0;
 }
 
+button:focus {
+  outline: none;
+}
+
 .btn-outline-primary {
   @include btn-outline-primary;
   &:hover {
